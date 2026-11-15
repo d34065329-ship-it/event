@@ -1,0 +1,14 @@
+name: ChaosTimer
+version: '1.0.0'
+main: me.chaos.ChaosPlugin
+api-version: '1.21'
+description: Каждые N минут случается случайное событие. Таймер на bossbar, модификаторы, звуки.
+commands:
+  chaos:
+    description: Управление игрой «Хаос-таймер»
+    usage: /chaos help
+    permission: chaos.admin
+permissions:
+  chaos.admin:
+    description: Управление игрой
+    default: op
